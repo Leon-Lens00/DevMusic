@@ -73,7 +73,7 @@
             font-size: 24px;
             font-weight: 700;
             background: linear-gradient(90deg, #ffffff 0%, #cccccc 100%);
-            -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -314,7 +314,7 @@
             font-size: 14px;
             color: var(--text-secondary);
             display: -webkit-box;
-            -webkit-line-clamp: 2;
+            line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
